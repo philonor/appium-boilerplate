@@ -88,6 +88,7 @@ and add `services: ['sauce'],` to the config. If no `region` is provided it will
 If you provide `region: 'us'` or `region: 'eu'` it will connect to the US or the EU RDC cloud
 
 **Config**
+
 - On your [SauceLab Native apps page](https://app.testobject.com/), ensure to upload the WDIO Demo app 
 - Ensure to set config in [./config/saucelabs/wdio.ios.rdc.app.conf.js](./config/saucelabs/wdio.ios.rdc.app.conf.js)
   - `testobject_test_name` is the name you just set as "app name" in the previous step, by default `wdio-demo-app-test`
@@ -95,6 +96,7 @@ If you provide `region: 'us'` or `region: 'eu'` it will connect to the US or the
   - `deviceName` can only be `iPhone_6_free` if you are currently within the free trial of SauceLabs
 
 **Scripts**
+
 There are 2 scripts that can be used, see the [`package.json`](./package.json), to execute the tests in the cloud:
 
     // For iOS
